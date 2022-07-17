@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 pysimplegui = "==4.60.1"
+janome = "==0.4.2"
 
 [dev-packages]
 black = "==22.6.0"
