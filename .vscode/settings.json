@@ -1,0 +1,24 @@
+{
+    "python.pythonPath": ".venv/bin/python",
+    "python.venvPath": ".venv",
+    "python.autoComplete.extraPaths": ["${workspaceFolder}/apps"],
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.lintOnSave": true,
+    "editor.formatOnSave": true,
+    "python.jediEnabled": true,
+    "python.languageServer": "Jedi",
+    "python.formatting.provider": "black",
+    "python.linting.flake8Args": [
+        "--max-line-length",
+        "119",
+        "--ignore",
+        "E203,E402",
+        "--select",
+        "C,E,F,W,B"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    }
+}
