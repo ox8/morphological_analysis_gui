@@ -7,6 +7,7 @@ name = "pypi"
 pysimplegui = "==4.60.1"
 janome = "==0.4.2"
 pydantic = "==1.9.1"
+mojimoji = "==0.0.12"
 
 [dev-packages]
 black = "==22.6.0"
