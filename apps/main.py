@@ -64,7 +64,7 @@ if __name__ == "__main__":
         if event == "exec":
             results: List[MorphologicalToken] = morphological_analyse.get_morphological_analysed_token(text=input_text)
             show_message: str = "\n".join(
-                [f"{result.token.surface} {result.token.part_of_speech}" for result in results]
+                [f"{result.token.surface} | {result.token.part_of_speech}" for result in results]
             )
             PySimpleGUIService.popup_message_dialog(message=show_message)
 
